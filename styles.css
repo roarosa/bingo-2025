@@ -23,6 +23,7 @@ body {
 }
 
 .header {
+  @apply grow;
   @apply grid items-center;
   grid-template-columns: 1fr auto 1fr;
 }
@@ -45,6 +46,7 @@ body {
 }
 
 .bingo-grid {
+  @apply grow-0;
   @apply grid grid-cols-5 gap-2 w-full aspect-square;
 }
 
