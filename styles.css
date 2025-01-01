@@ -13,7 +13,7 @@ body {
   font-style: normal;
 }
 
-.container {
+.page {
   padding: 0.6in 0.6in;
   @apply flex flex-col content-end w-full h-full justify-between;
   @apply bg-amber-50/25;
