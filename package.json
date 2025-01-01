@@ -1,0 +1,12 @@
+{
+  "name": "2025-bingo",
+  "version": "1.0.0",
+  "author": "Alex Rosalia <alex@rosalia.me>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
