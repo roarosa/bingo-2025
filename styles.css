@@ -83,3 +83,8 @@ body {
     @apply text-2xl;
   }
 }
+
+.star {
+  @apply absolute w-28 overflow-visible;
+  @apply stroke-sky-800 fill-sky-300 opacity-50;
+}
