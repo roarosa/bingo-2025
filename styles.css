@@ -16,7 +16,7 @@ body {
 .page {
   padding: 0.6in 0.6in;
   @apply flex flex-col content-end w-full h-full justify-between;
-  @apply bg-amber-50/25;
+  @apply bg-cyan-50/25;
   @media print {
     page-break-after: always;
   }
@@ -29,12 +29,12 @@ body {
 }
 
 .header-image {
-  @apply fill-rose-800;
+  @apply fill-teal-800;
 }
 
 .header-text {
   @apply flex flex-col items-center justify-center text-center gap-6;
-  @apply text-8xl font-bold text-rose-800;
+  @apply text-8xl font-bold text-teal-800;
 }
 
 .header h1 {
@@ -52,7 +52,7 @@ body {
 
 .bingo-cell {
   @apply flex items-center justify-center text-center p-4 aspect-square;
-  @apply rounded-lg border bg-rose-50/50 border-rose-300 text-red-700;
+  @apply rounded-lg border bg-cyan-50/50 border-cyan-300 text-cyan-700;
   @apply text-2xl font-light;
 }
 
@@ -74,7 +74,7 @@ body {
 
 .bingo-cell-free {
   @apply flex flex-col;
-  @apply bg-amber-100/75 border-amber-500 text-amber-600;
+  @apply bg-emerald-100/75 border-emerald-500 text-emerald-600;
   @apply text-3xl;
 }
 
@@ -86,5 +86,5 @@ body {
 
 .star {
   @apply absolute w-28 overflow-visible;
-  @apply stroke-sky-800 fill-sky-300 opacity-50;
+  @apply stroke-amber-800 fill-amber-300 opacity-50;
 }
